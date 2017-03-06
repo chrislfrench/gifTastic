@@ -1,0 +1,51 @@
+#body {
+
+	height: 100%;
+
+}
+
+#wrapper {
+
+	/*background-image: url("../images/background.jpg");*/
+	background-repeat: no-repeat;
+	/*background-size: 1000px 667px;*/
+	background-size: cover;
+    /*background-position: center;*/
+
+}
+
+#title{
+	
+	padding: 15px;
+	color: black;
+	background-color: #black;
+    background-color: rgba(255,255,255,0.5);
+    display: inline-block;
+    font-family: 'McLaren', cursive;
+}
+
+.pic{
+
+	height: 200px;
+	width: 200px;
+}
+
+
+
+button{
+
+	width: 118px;
+	margin: 20px 20px 50px 20px;
+}
+
+#opener{
+
+	color: grey;
+	font-size: 75px;
+	font-family: 'McLaren', cursive;
+}
+
+#footer{
+
+	margin: 50px 50px 200px 50px;
+}
