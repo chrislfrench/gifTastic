@@ -1,3 +1,13 @@
+/*font-family: 'Rubik', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Cabin', sans-serif;
+font-family: 'VT323', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;*/
+/*Font Choices*/
+
 #body {
 
 	height: 100%;
@@ -6,7 +16,7 @@
 
 #wrapper {
 
-	/*background-image: url("../images/background.jpg");*/
+	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	/*background-size: 1000px 667px;*/
 	background-size: cover;
@@ -18,10 +28,22 @@
 	
 	padding: 15px;
 	color: black;
-	background-color: #black;
-    background-color: rgba(255,255,255,0.5);
+	/*background-color: #black;*/
+    /*background-color: rgba(255,255,255,0.5);*/
     display: inline-block;
-    font-family: 'McLaren', cursive;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+#intro{
+	
+	padding: 15px;
+	color: black;
+	/*background-color: #black;*/
+    /*background-color: rgba(255,255,255,0.5);*/
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 
 .pic{
@@ -30,7 +52,18 @@
 	width: 200px;
 }
 
+#movies-view {
 
+	display: inline-block;
+}
+
+#label{
+	
+	font-family: 'Inconsolata', monospace;
+	color: white;
+	font-size: large;
+
+}
 
 button{
 
@@ -42,7 +75,7 @@ button{
 
 	color: grey;
 	font-size: 75px;
-	font-family: 'McLaren', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 #footer{
