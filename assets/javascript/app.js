@@ -1,4 +1,3 @@
-
 // (function() {
  var movies = ["Dogs", "Cats", "Penguins", "Cheetahs"];
       // displayMovieInfo function re-renders the HTML to display the appropriate content

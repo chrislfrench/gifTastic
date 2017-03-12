@@ -25,9 +25,9 @@
 			
 	<div class="row">
 		
-		<div class="col-sm-3"></div>
-		<div class="col-sm-6"><h1 id="title">Funny Animal Gifs!</h1></div>
-		<div class="col-sm-3"></div>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4"><h1 class="text-center" id="title">Funny Animal Gifs!</h1></div>
+		<div class="col-sm-4"></div>
 
 	</div>
    	<br>
@@ -39,21 +39,27 @@
 		
     
     <!-- Rendered buttons will get dumped Here  -->
-    
-    <div id="buttons-view"></div>
-    <form id="movie-form">
+    <div class="row">
+    <div class="col-sm-12" id="buttons-view"></div>
+    </div>
+	
+	<div class="row">
+	<div class="col-sm-4"></div>
+    <div class="col-sm-4"><form id="movie-form">
       <label for="movie-input" id="label">Add an animal</label>
-      <input type="text" id="movie-input"><br>
+      <input type="text" id="movie-input"> <input id="add-movie" type="submit" value="ADD ANIMAL"><br>
       <!-- Button triggers new movie to be added -->
       <br>
-      <input id="add-movie" type="submit" value="Add an Animal!">
-    </form>
+    </form></div>
+    <div class="col-sm-4"></div>
+    </div>
+    
     <!-- Movies will get dumped dere -->
     <div id="movies-view"></div>
   			
 	<div class="row">
-   		<div class="col-sm-3"></div>
-   		<div class="col-sm-6" id="opener"><h2>Click to see animation</h2></div>
+   		<div class="col-sm-4"></div>
+   		<div class="col-sm-4" id="opener"><h2>Click to see animation</h2></div>
    		<div class="col-sm-3"></div>
 	</div>   	
 	
